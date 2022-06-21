@@ -1,0 +1,175 @@
+#title{
+  background-color: #ff4c68;
+
+}
+
+body{
+  font-family: "Montserrat";
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-size: 1.3em;
+}
+
+p{
+  color:#8f8f8f;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.title-heading{
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+/* navigation bar */
+.navbar{
+  padding :0 0 4.5rem 0;
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: light;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Download buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image
+{
+  width: 23%;
+  transform: rotate(30deg);
+  position: absolute;
+}
+
+/* features box */
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+
+}
+.features-box{
+  text-align: center;
+  padding: 5%;
+
+}
+
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials section */
+#testimonials
+{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #ffff;
+
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+/* press section  */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+
+
+  }
+}
+/*
+footer section */
+#cta
+{
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+.footer-text{
+  font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+/* Footer section comments */
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.footer-img{
+  margin: 20px 10px;
+  color: black;
+
+}
+.footer-img :hover{
+  color: #ff4c68;
+}
+.footer-para{
+  margin-top: 20px;
+}
